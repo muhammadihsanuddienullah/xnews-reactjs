@@ -30,6 +30,7 @@ const hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
+    {/* anjay */}
     <Switch>
       <Route path="/admin" component={Admin} />
       <Route path="/rtl" component={RTL} />
